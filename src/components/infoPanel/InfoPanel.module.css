@@ -1,0 +1,28 @@
+@value ilinkNavy, ilinkBrightBlue from '../../common/colours.css';
+
+.container {
+  width: 100vw;
+}
+
+.panel {
+  margin: 2rem auto;
+  width: 60vw;
+  z-index: 1001;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid ilinkBrightBlue;
+  border-radius: 1rem;
+  color: ilinkNavy;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.heading {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.para {
+  margin: 0;
+  padding-bottom: 0.1rem;
+}

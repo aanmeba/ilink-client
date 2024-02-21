@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
 import { Button, TextField } from "@mui/material";
 import styles from "./Home.module.css";
+import InfoPanel from "./infoPanel/InfoPanel";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -23,6 +24,7 @@ const Home = () => {
   return (
     <section className={styles.container}>
       <Navbar />
+      <InfoPanel />
       <div className={styles.home}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <h1 className={styles.title} data-testid="home-title">
